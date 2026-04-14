@@ -1,0 +1,23 @@
+{
+  "name": "typescript-review",
+  "version": "1.0.0",
+  "description": "A typescript-based sales order management system using DDD principles.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "keywords": [
+    "typescript",
+    "sales-order",
+    "sales-order-management",
+    "ddd",
+    "domain-driven-design"
+  ],
+  "author": "Open-Source Aplications Development Team",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}

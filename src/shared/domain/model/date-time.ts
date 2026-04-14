@@ -2,7 +2,7 @@
  * Value object representing a date and time
  * Ensures that the date is not in the future and is valid
  * @remarks
- * This class is inmutable and provides a method to format the date as a string
+ * This class is immutable and provides a method to format the date as a string
  */
 export class DateTime {
     private readonly _date: Date;
